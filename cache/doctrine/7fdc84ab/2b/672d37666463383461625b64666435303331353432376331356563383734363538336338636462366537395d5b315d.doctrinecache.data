@@ -1,0 +1,34 @@
+1686510034
+a:2:{s:7:"content";s:66:"<h2 style="text-align: center;">Ahoj<h2>
+
+<p id="530372913">
+</p>
+";s:12:"content_meta";a:1:{s:13:"shortcodeMeta";a:1:{s:15:"shortcodeAssets";a:3:{s:3:"css";a:2:{i:0;s:70:"plugin://shortcode-gallery-plusplus/vendor/glightbox/glightbox.min.css";i:1;s:85:"plugin://shortcode-gallery-plusplus/vendor/justified-gallery/justifiedGallery.min.css";}s:2:"js";a:3:{i:0;a:2:{i:0;s:6:"jquery";i:1;i:101;}i:1;s:69:"plugin://shortcode-gallery-plusplus/vendor/glightbox/glightbox.min.js";i:2;s:91:"plugin://shortcode-gallery-plusplus/vendor/justified-gallery/jquery.justifiedGallery.min.js";}s:8:"inlineJs";a:1:{i:0;a:2:{i:0;s:654:"$("#530372913").justifiedGallery({
+    rowHeight: 200,
+    margins: 3,
+    lastRow: "nojustify",
+    captions: false,
+    border: 0,
+    waitThumbnailsLoad: false,
+    thumbnailPath: function (currentPath, width, height, image) {
+        return image.currentSrc;
+    },
+});
+
+GLightbox({
+    selector: ".glightbox-530372913",
+    openEffect: "zoom",
+    closeEffect: "zoom",
+    slideEffect: "slide",
+    closeButton: true,
+    touchNavigation: true,
+    touchFollowAxis: true,
+    keyboardNavigation: true,
+    closeOnOutsideClick: true,
+    loop: false,
+    draggable: true,
+    descPosition: "bottom",
+    moreText: "See more",
+    moreLength: 60,
+});
+";i:1;a:1:{s:5:"group";s:6:"bottom";}}}}}}}

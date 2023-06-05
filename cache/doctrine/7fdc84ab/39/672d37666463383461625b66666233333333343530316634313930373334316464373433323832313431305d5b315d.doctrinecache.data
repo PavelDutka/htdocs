@@ -1,0 +1,60 @@
+1686509987
+a:2:{s:7:"content";s:2873:"<h2>Some of my work</h2>
+<p id="1996490085">
+    <a href="/user/images/EndlessEngines.jpg" class="glightbox-1996490085">
+        <img width="474" height="200" alt="Formula car on track" src="/user/images/EndlessEngines.jpg" srcset="/images/1/c/e/1/a/1ce1aaa1264a06a9d909781077b0fed8cb774a9d-endlessengines948w.jpg 948w, /user/images/EndlessEngines.jpg 1920w" sizes="1px" />
+    </a>
+    <a href="/user/images/MovingMeditations.jpg" class="glightbox-1996490085">
+        <img width="356" height="200" alt="Moving Meditations challenge" src="/user/images/MovingMeditations.jpg" srcset="/images/8/f/7/3/a/8f73ade4fa1b94cfe674f8928607541deb37e07d-movingmeditations712w.jpg 712w, /user/images/MovingMeditations.jpg 2877w" sizes="1px" />
+    </a>
+    <a href="/user/images/DefaultCube.jpg" class="glightbox-1996490085">
+        <img width="356" height="200" alt="Default cube challenge" src="/user/images/DefaultCube.jpg" srcset="/images/c/7/f/0/6/c7f065b1391fe73fd938ce8afef2a8f262c4e379-defaultcube712w.jpg 712w, /user/images/DefaultCube.jpg 1421w" sizes="1px" />
+    </a>
+    <a href="/user/images/Pen.jpg" class="glightbox-1996490085">
+        <img width="356" height="200" alt="WoodFactory pen" src="/user/images/Pen.jpg" srcset="/images/6/4/3/b/b/643bb26220e949a409bb60410b1004418843d0c5-pen712w.jpg 712w, /user/images/Pen.jpg 1920w" sizes="1px" />
+    </a>
+    <a href="/user/images/Boeing_737.jpg" class="glightbox-1996490085">
+        <img width="356" height="200" alt="Boeing 737-800" src="/user/images/Boeing_737.jpg" srcset="/images/4/2/7/f/9/427f94ae8c3c8f70a2b91ee1fa67bda1b7585e69-boeing737712w.jpg 712w, /user/images/Boeing_737.jpg 1920w" sizes="1px" />
+    </a>
+    <a href="/user/images/Canoe.jpg" class="glightbox-1996490085">
+        <img width="356" height="200" alt="Canoe" src="/user/images/Canoe.jpg" srcset="/images/d/6/b/7/e/d6b7e578a8d023da9c490bad345ae09b8f169c26-canoe712w.jpg 712w, /user/images/Canoe.jpg 1920w" sizes="1px" />
+    </a>
+    <a href="/user/images/Rowboat.jpg" class="glightbox-1996490085">
+        <img width="356" height="200" alt="Rowboat" src="/user/images/Rowboat.jpg" srcset="/images/a/7/e/b/9/a7eb9a3bdf71459ccbe0f42853e49ade8d62cbf1-rowboat712w.jpg 712w, /user/images/Rowboat.jpg 1920w" sizes="1px" />
+    </a>
+    <a href="/user/images/Bregenz.jpg" class="glightbox-1996490085">
+        <img width="200" height="200" alt="HaasSohn Bregenz" src="/user/images/Bregenz.jpg" srcset="/images/0/8/e/f/e/08efe4b9ee28d4c81d5c8d80ce6f9ea7def48426-bregenz400w.jpg 400w, /user/images/Bregenz.jpg 768w" sizes="1px" />
+    </a>
+    <a href="/user/images/Gastein.jpg" class="glightbox-1996490085">
+        <img width="200" height="200" alt="HaasSohn Gastein" src="/user/images/Gastein.jpg" srcset="/images/0/6/1/c/3/061c35c79e8ed8d7b224d3fa0749c0b419cd4a65-gastein400w.jpg 400w, /user/images/Gastein.jpg 1080w" sizes="1px" />
+    </a>
+</p>
+";s:12:"content_meta";a:1:{s:13:"shortcodeMeta";a:1:{s:15:"shortcodeAssets";a:3:{s:3:"css";a:2:{i:0;s:70:"plugin://shortcode-gallery-plusplus/vendor/glightbox/glightbox.min.css";i:1;s:85:"plugin://shortcode-gallery-plusplus/vendor/justified-gallery/justifiedGallery.min.css";}s:2:"js";a:3:{i:0;a:2:{i:0;s:6:"jquery";i:1;i:101;}i:1;s:69:"plugin://shortcode-gallery-plusplus/vendor/glightbox/glightbox.min.js";i:2;s:91:"plugin://shortcode-gallery-plusplus/vendor/justified-gallery/jquery.justifiedGallery.min.js";}s:8:"inlineJs";a:1:{i:0;a:2:{i:0;s:656:"$("#1996490085").justifiedGallery({
+    rowHeight: 200,
+    margins: 3,
+    lastRow: "nojustify",
+    captions: false,
+    border: 0,
+    waitThumbnailsLoad: false,
+    thumbnailPath: function (currentPath, width, height, image) {
+        return image.currentSrc;
+    },
+});
+
+GLightbox({
+    selector: ".glightbox-1996490085",
+    openEffect: "zoom",
+    closeEffect: "zoom",
+    slideEffect: "slide",
+    closeButton: true,
+    touchNavigation: true,
+    touchFollowAxis: true,
+    keyboardNavigation: true,
+    closeOnOutsideClick: true,
+    loop: false,
+    draggable: true,
+    descPosition: "bottom",
+    moreText: "See more",
+    moreLength: 60,
+});
+";i:1;a:1:{s:5:"group";s:6:"bottom";}}}}}}}

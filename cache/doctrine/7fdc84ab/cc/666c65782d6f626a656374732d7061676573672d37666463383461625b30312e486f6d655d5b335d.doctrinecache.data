@@ -1,0 +1,28 @@
+1685905970
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:4:"home";s:8:"elements";a:8:{s:4:"root";b:0;s:11:"storage_key";s:7:"01.Home";s:6:"header";a:1:{s:5:"title";s:4:"Home";}s:11:"frontmatter";s:0:"";s:8:"markdown";s:2397:"## About me
+
+Hi, I'm Pavel and I'm currently studying cyber security and IOT at SPŠSE a VOŠ Liberec. In this portfolio I will show you some of my projects to demonstrate what I can do. I hope you enjoy.
+
+## 3D modeling
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam ante. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Curabitur vitae diam non enim vestibulum interdum. Pellentesque sapien. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Aenean vel massa quis mauris vehicula lacinia. Aliquam ante. In enim a arcu imperdiet malesuada. Nullam feugiat.
+
+![Boeing 737-800](image://737.png)
+
+## Animation
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam ante. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Curabitur vitae diam non enim vestibulum interdum. Pellentesque sapien. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Aenean vel massa quis mauris vehicula lacinia. Aliquam ante. In enim a arcu imperdiet malesuada. Nullam feugiat.
+
+![Formula car on track](image://EndlessEngines.jpg)
+
+## Archviz
+
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam ante. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Curabitur vitae diam non enim vestibulum interdum. Pellentesque sapien. Sed vel lectus. Donec odio tempus molestie, porttitor ut, iaculis quis, sem. Aenean vel massa quis mauris vehicula lacinia. Aliquam ante. In enim a arcu imperdiet malesuada. Nullam feugiat.
+
+![HaasSohn Bregenz](image://Bregenz.jpg)
+
+## Game Development
+
+This is how my 3D artist journey started. When I was 13 years old, I always wanted to create my own dream game, so I started learning Unreal Engine and Blender. But the game I wanted to create was a really big project, so I never finished it, instead I created several smaller projects. Some of them you can download on my [itch.io](https://pavel-dutka.itch.io/)
+
+
+![HaasSohn Bregenz](image://Cars.jpg)
+";s:4:"slug";s:4:"home";s:4:"name";s:10:"default.md";s:8:"ordering";b:1;}s:7:"storage";a:6:{s:3:"key";s:4:"home";s:11:"storage_key";s:7:"01.Home";s:8:"template";s:7:"default";s:17:"storage_timestamp";i:1685905370;s:8:"markdown";a:1:{s:0:"";a:1:{s:7:"default";i:1685905370;}}s:8:"checksum";s:32:"75763b0227d8970f758dc2fe71fc5f90";}}
