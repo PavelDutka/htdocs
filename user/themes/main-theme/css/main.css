@@ -186,6 +186,26 @@ blockquote {
     content: '\f105';
 }
 
+input{
+    width: 50%;
+    color: black;
+    height: 2em;
+    border: none;
+}
+
+button{
+    background-color: #175E91;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: #1F8DD6;
+}
+
+
 @media only screen and (min-width: 600px) {
     img{
         width: 40%;
