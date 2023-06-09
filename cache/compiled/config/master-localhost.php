@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1685906569,
-    'checksum' => '05a62feef8612327e16f0bc51d0ddf4d',
+    'timestamp' => 1686299520,
+    'checksum' => '895d10d4a91c1166992cc2036b28430c',
     'files' => [
         'user/config' => [
             'media' => [
@@ -19,7 +19,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1685906427
+                'modified' => 1686299520
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -3874,14 +3874,14 @@ node_modules'
         ],
         'system' => [
             'absolute_urls' => false,
-            'timezone' => '',
+            'timezone' => NULL,
             'default_locale' => NULL,
             'param_sep' => ':',
             'wrapped_site' => false,
             'reverse_proxy_setup' => false,
             'force_ssl' => false,
             'force_lowercase_urls' => true,
-            'custom_base_url' => '',
+            'custom_base_url' => NULL,
             'username_regex' => '^[a-z0-9_-]{3,16}$',
             'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
             'intl_enabled' => true,
@@ -3892,9 +3892,7 @@ node_modules'
                 'ip' => true
             ],
             'languages' => [
-                'supported' => [
-                    
-                ],
+                'supported' => NULL,
                 'default_lang' => NULL,
                 'include_default_lang' => true,
                 'include_default_lang_file_extension' => true,
@@ -3933,7 +3931,7 @@ node_modules'
                 'publish_dates' => true,
                 'process' => [
                     'markdown' => true,
-                    'twig' => false
+                    'twig' => true
                 ],
                 'twig_first' => false,
                 'never_cache_twig' => false,
@@ -3967,13 +3965,13 @@ node_modules'
                     5 => 'rss',
                     6 => 'atom'
                 ],
-                'append_url_extension' => '',
+                'append_url_extension' => NULL,
                 'expires' => 604800,
                 'cache_control' => NULL,
                 'last_modified' => false,
                 'etag' => true,
                 'vary_accept_encoding' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => 1,
                 'redirect_default_route' => 0,
                 'ignore_files' => [
@@ -4010,9 +4008,19 @@ node_modules'
                 'gzip' => false,
                 'allow_webserver_gzip' => false,
                 'redis' => [
-                    'socket' => false,
+                    'socket' => '0',
                     'password' => NULL,
-                    'database' => NULL
+                    'database' => NULL,
+                    'server' => NULL,
+                    'port' => NULL
+                ],
+                'memcache' => [
+                    'server' => NULL,
+                    'port' => NULL
+                ],
+                'memcached' => [
+                    'server' => NULL,
+                    'port' => NULL
                 ]
             ],
             'twig' => [
@@ -4051,7 +4059,7 @@ node_modules'
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => 1,
                 'log' => true
             ],
             'log' => [
@@ -4080,7 +4088,7 @@ node_modules'
                 'cls' => [
                     'auto_sizes' => false,
                     'aspect_ratio' => false,
-                    'retina_scale' => 1
+                    'retina_scale' => '1'
                 ],
                 'defaults' => [
                     'loading' => 'auto'
@@ -4095,13 +4103,10 @@ node_modules'
             ],
             'media' => [
                 'enable_media_timestamp' => false,
-                'unsupported_inline_types' => [
-                    
-                ],
-                'allowed_fallback_types' => [
-                    
-                ],
-                'auto_metadata_exif' => false
+                'unsupported_inline_types' => NULL,
+                'allowed_fallback_types' => NULL,
+                'auto_metadata_exif' => false,
+                'upload_limit' => 41943040
             ],
             'session' => [
                 'enabled' => true,

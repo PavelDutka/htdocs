@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => 'C:/xampp/htdocs/user/pages/03.Contact/form.md',
-    'modified' => 1685906585,
-    'size' => 1131,
+    'modified' => 1686299474,
+    'size' => 1171,
     'data' => [
         'header' => [
             'title' => 'Contact',
@@ -106,6 +106,10 @@ form:
 ',
         'markdown' => '# Contact me
 
-Feel free to contact me if you are interested.'
+{% include "forms/form.html.twig" %}
+
+Feel free to contact me if you are interested.
+
+'
     ]
 ];

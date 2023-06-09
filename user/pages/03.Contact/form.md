@@ -47,4 +47,7 @@ form:
 
 # Contact me
 
+{% include "forms/form.html.twig" %}
+
 Feel free to contact me if you are interested.
+
