@@ -2,14 +2,16 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => 'C:/xampp/htdocs/user/pages/02.Gallery/default.md',
-    'modified' => 1685905285,
-    'size' => 451,
+    'modified' => 1686301511,
+    'size' => 462,
     'data' => [
         'header' => [
             
         ],
         'frontmatter' => '',
-        'markdown' => '[gallery]
+        'markdown' => '# Gallery
+
+[gallery]
 ![Formula car on track](/user/images/EndlessEngines.jpg)
 ![Moving Meditations challenge](/user/images/MovingMeditations.jpg)
 ![Default cube challenge](/user/images/DefaultCube.jpg)

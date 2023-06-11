@@ -1,6 +1,13 @@
 ---
 title: Home
+twig_first: true
+never_cache_twig: true
+process:
+    markdown: true
+    twig: true
 ---
+
+
 
 ## About me
 

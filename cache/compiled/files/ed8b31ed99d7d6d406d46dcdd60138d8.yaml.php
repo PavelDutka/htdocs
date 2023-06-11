@@ -2,11 +2,12 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/xampp/htdocs/user/config/system.yaml',
-    'modified' => 1686299520,
-    'size' => 4506,
+    'modified' => 1686506259,
+    'size' => 4553,
     'data' => [
         'absolute_urls' => false,
         'timezone' => NULL,
+        'default_locale' => NULL,
         'param_sep' => ':',
         'wrapped_site' => false,
         'reverse_proxy_setup' => false,
@@ -32,6 +33,9 @@ return [
             'session_store_active' => false,
             'http_accept_language' => false,
             'override_locale' => false,
+            'content_fallback' => [
+                
+            ],
             'pages_fallback_only' => false
         ],
         'home' => [
@@ -251,7 +255,7 @@ return [
             'path' => NULL
         ],
         'gpm' => [
-            'releases' => 'stable',
+            'releases' => 'testing',
             'official_gpm_only' => true,
             'verify_peer' => true
         ],

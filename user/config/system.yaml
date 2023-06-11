@@ -1,5 +1,6 @@
 absolute_urls: false
 timezone: null
+default_locale: null
 param_sep: ':'
 wrapped_site: false
 reverse_proxy_setup: false
@@ -24,6 +25,7 @@ languages:
   session_store_active: false
   http_accept_language: false
   override_locale: false
+  content_fallback: {  }
   pages_fallback_only: false
 home:
   alias: /home
@@ -203,7 +205,7 @@ session:
   domain: null
   path: null
 gpm:
-  releases: stable
+  releases: testing
   official_gpm_only: true
   verify_peer: true
 http:

@@ -48,7 +48,7 @@ class __TwigTemplate_a8a2a7b4ec64a65ffaa43a131113c313208134b7bea771dd71a9c25462e
         echo "\" data-grav-keepalive=\"true\">
     ";
         // line 6
-        $this->loadTemplate("partials/blueprints-new-folder.html.twig", "partials/blueprints-new-folder.html.twig", 6, "792218578")->display(twig_array_merge($context, ["name" => null, "fields" => $this->getAttribute(($context["blueprints"] ?? null), "fields", [])]));
+        $this->loadTemplate("partials/blueprints-new-folder.html.twig", "partials/blueprints-new-folder.html.twig", 6, "1625869673")->display(twig_array_merge($context, ["name" => null, "fields" => $this->getAttribute(($context["blueprints"] ?? null), "fields", [])]));
         // line 10
         echo "
     <input type=\"hidden\" name=\"task\" value=\"saveNewFolder\" />
@@ -117,7 +117,7 @@ class __TwigTemplate_a8a2a7b4ec64a65ffaa43a131113c313208134b7bea771dd71a9c25462e
 
 
 /* partials/blueprints-new-folder.html.twig */
-class __TwigTemplate_a8a2a7b4ec64a65ffaa43a131113c313208134b7bea771dd71a9c25462e8babd___792218578 extends \Twig\Template
+class __TwigTemplate_a8a2a7b4ec64a65ffaa43a131113c313208134b7bea771dd71a9c25462e8babd___1625869673 extends \Twig\Template
 {
     public function __construct(Environment $env)
     {

@@ -2,15 +2,24 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => 'C:/xampp/htdocs/user/pages/01.Home/default.md',
-    'modified' => 1685905370,
-    'size' => 2418,
+    'modified' => 1686506443,
+    'size' => 2503,
     'data' => [
-        'storage_key' => '01.Home',
         'header' => [
-            'title' => 'Home'
+            'title' => 'Home',
+            'twig_first' => true,
+            'never_cache_twig' => true,
+            'process' => [
+                'markdown' => true,
+                'twig' => true
+            ]
         ],
-        'root' => false,
-        'frontmatter' => '',
+        'frontmatter' => 'title: Home
+twig_first: true
+never_cache_twig: true
+process:
+    markdown: true
+    twig: true',
         'markdown' => '## About me
 
 Hi, I\'m Pavel and I\'m currently studying cyber security and IOT at SPŠSE a VOŠ Liberec. In this portfolio I will show you some of my projects to demonstrate what I can do. I hope you enjoy.
@@ -37,9 +46,6 @@ This is how my 3D artist journey started. When I was 13 years old, I always want
 
 
 ![HaasSohn Bregenz](image://Cars.jpg)
-',
-        'slug' => 'home',
-        'name' => 'default.md',
-        'ordering' => true
+'
     ]
 ];

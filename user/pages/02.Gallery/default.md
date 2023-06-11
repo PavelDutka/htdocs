@@ -1,3 +1,5 @@
+# Gallery
+
 [gallery]
 ![Formula car on track](/user/images/EndlessEngines.jpg)
 ![Moving Meditations challenge](/user/images/MovingMeditations.jpg)

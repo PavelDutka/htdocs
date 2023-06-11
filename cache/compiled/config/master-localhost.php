@@ -1,13 +1,17 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1686299520,
-    'checksum' => '895d10d4a91c1166992cc2036b28430c',
+    'timestamp' => 1686506260,
+    'checksum' => '919a969c31c55e0b7c8245b39a2829e9',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1685299240
+            ],
+            'plugins/swiper-js' => [
+                'file' => 'user/config/plugins/swiper-js.yaml',
+                'modified' => 1686505784
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -19,7 +23,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1686299520
+                'modified' => 1686506259
             ],
             'versions' => [
                 'file' => 'user/config/versions.yaml',
@@ -81,6 +85,10 @@ return [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1683837167
             ],
+            'plugins/lightslider' => [
+                'file' => 'user/plugins/lightslider/lightslider.yaml',
+                'modified' => 1491872152
+            ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
                 'modified' => 1683837167
@@ -100,6 +108,14 @@ return [
             'plugins/shortcode-gallery-plusplus' => [
                 'file' => 'user/plugins/shortcode-gallery-plusplus/shortcode-gallery-plusplus.yaml',
                 'modified' => 1681746678
+            ],
+            'plugins/swiper' => [
+                'file' => 'user/plugins/swiper/swiper.yaml',
+                'modified' => 1576930720
+            ],
+            'plugins/swiper-js' => [
+                'file' => 'user/plugins/swiper-js/swiper-js.yaml',
+                'modified' => 1686505598
             ]
         ],
         'user/themes' => [
@@ -320,6 +336,34 @@ return [
                     ]
                 ]
             ],
+            'lightslider' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'slider_type' => 'text',
+                'type_text_height' => 'auto',
+                'type_text_vertical_padding' => '80px',
+                'type_text_horizontal_padding' => '50px',
+                'type_text_brightness' => 0,
+                'item' => 1,
+                'slideMove' => 1,
+                'slideMargin' => 0,
+                'loop' => 'false',
+                'mode' => 'fade',
+                'controls' => 'true',
+                'keyPress' => 'true',
+                'auto' => 'true',
+                'pause' => 2000,
+                'speed' => 1000,
+                'pager' => 'true',
+                'gallery' => 'false',
+                'gallery_thumb_width' => 100,
+                'gallery_thumb_height' => 100,
+                'gallery_margin' => 15,
+                'gallery_thumb_margin' => 5,
+                'enableTouch' => 'true',
+                'enableDrag' => 'true',
+                'pauseOnHover' => 'false'
+            ],
             'login' => [
                 'enabled' => true,
                 'built_in_css' => true,
@@ -445,6 +489,75 @@ return [
                     'descPosition' => 'bottom',
                     'descMoreText' => 'See more',
                     'descMoreLength' => 60
+                ]
+            ],
+            'swiper' => [
+                'enabled' => true,
+                'templates' => true,
+                'shortcodes' => true,
+                'defaults' => [
+                    'a11y' => [
+                        'enabled' => true
+                    ],
+                    'autoHeight' => true,
+                    'centeredSlides' => true,
+                    'direction' => 'horizontal',
+                    'keyboard' => [
+                        'enabled' => true
+                    ],
+                    'navigation' => [
+                        'nextEl' => '.swiper-button-next',
+                        'prevEl' => '.swiper-button-prev'
+                    ],
+                    'lazy' => true
+                ]
+            ],
+            'swiper-js' => [
+                'enabled' => false,
+                'built_in_swiper_assets' => true,
+                'built_in_css' => true,
+                'built_in_js' => true,
+                'swiper' => [
+                    'autoplay' => false,
+                    'loop' => false,
+                    'zoom' => false,
+                    'navigation' => [
+                        'nextEl' => '',
+                        'prevEl' => ''
+                    ],
+                    'pagination' => [
+                        'el' => ''
+                    ],
+                    'scrollbar' => [
+                        'el' => ''
+                    ],
+                    'direction' => 'horizontal',
+                    'effect' => 'slide',
+                    'spaceBetween' => 0,
+                    'freeMode' => false,
+                    'freeModeSticky' => false,
+                    'grabCursor' => false,
+                    'autoHeight' => false,
+                    'centeredSlides' => false,
+                    'initialSlide' => 0,
+                    'preloadImages' => true,
+                    'speed' => 300,
+                    'shortSwipes' => true,
+                    'keyboard' => [
+                        'enabled' => false
+                    ],
+                    'mousewheel' => false,
+                    'history' => false,
+                    'watchOverflow' => false,
+                    'watchSlidesProgress' => false,
+                    'watchSlidesVisibility' => false,
+                    'a11y' => [
+                        'firstSlideMessage' => 'PLUGIN_SWIPER_JS.A11Y.FIRST_SLIDE',
+                        'lastSlideMessage' => 'PLUGIN_SWIPER_JS.A11Y.LAST_SLIDE',
+                        'nextSlideMessage' => 'PLUGIN_SWIPER_JS.A11Y.NEXT_SLIDE',
+                        'paginationBulletMessage' => 'PLUGIN_SWIPER_JS.A11Y.PAGINATION_BULLET',
+                        'prevSlideMessage' => 'PLUGIN_SWIPER_JS.A11Y.PREV_SLIDE'
+                    ]
                 ]
             ]
         ],
@@ -4123,7 +4236,7 @@ node_modules'
                 'path' => NULL
             ],
             'gpm' => [
-                'releases' => 'stable',
+                'releases' => 'testing',
                 'official_gpm_only' => true,
                 'verify_peer' => true
             ],

@@ -1,3 +1,4 @@
+
 ---
 title: Contact
 form:
@@ -45,9 +46,9 @@ form:
 
 ---
 
-# Contact me
 
-{% include "forms/form.html.twig" %}
+
+# Contact me
 
 Feel free to contact me if you are interested.
 
